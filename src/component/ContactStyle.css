@@ -1,0 +1,40 @@
+label{
+    color: rgb(15, 1, 1);
+    margin-bottom: 0 5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    margin: auto;
+    max-width: 400px;
+}
+form input , form textarea{
+    margin-bottom: 1rem;
+    padding: 1px 1px;
+    font-size: 1.2rem;
+    background-color: rgba(255, 240, 26, 0.1);
+    border-color:  rgba(237, 8, 8, 0.1);
+    color: #101010;
+}
+
+form .btn{
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: yellow;
+    color: #222;
+    border: 1px solid#fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+form .btn-light{
+    background: transparent;
+    color: #fff;
+  
+  }
+ form .btn:hover{
+    background: rgba(19, 47, 231, 0.2);
+    color: rgb(125, 222, 108);
+    transition: 0.3s;
+  }
